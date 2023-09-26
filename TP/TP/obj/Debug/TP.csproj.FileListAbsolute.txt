@@ -1,0 +1,11 @@
+D:\Программирование\TP\TP\bin\Debug\TP.exe.config
+D:\Программирование\TP\TP\bin\Debug\TP.exe
+D:\Программирование\TP\TP\bin\Debug\TP.pdb
+D:\Программирование\TP\TP\obj\Debug\TP.csproj.AssemblyReference.cache
+D:\Программирование\TP\TP\obj\Debug\TP.csproj.SuggestedBindingRedirects.cache
+D:\Программирование\TP\TP\obj\Debug\TP.Form1.resources
+D:\Программирование\TP\TP\obj\Debug\TP.Properties.Resources.resources
+D:\Программирование\TP\TP\obj\Debug\TP.csproj.GenerateResource.cache
+D:\Программирование\TP\TP\obj\Debug\TP.csproj.CoreCompileInputs.cache
+D:\Программирование\TP\TP\obj\Debug\TP.exe
+D:\Программирование\TP\TP\obj\Debug\TP.pdb
