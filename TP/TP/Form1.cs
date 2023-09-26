@@ -82,6 +82,26 @@ namespace TP
             }
 
             label3.Text = Convert.ToString(markets);
+            label4.Text = Convert.ToString(rest);
+            label5.Text = Convert.ToString(pharmacy);
+            label6.Text = Convert.ToString(trans);
+            label7.Text = Convert.ToString(electronics);
+            label8.Text = Convert.ToString(transport);
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label9_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
