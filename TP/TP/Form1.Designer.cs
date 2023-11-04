@@ -48,13 +48,16 @@
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
             this.panel6 = new System.Windows.Forms.Panel();
             this.label16 = new System.Windows.Forms.Label();
             this.comboBox3 = new System.Windows.Forms.ComboBox();
+            this.label15 = new System.Windows.Forms.Label();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.label17 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -64,37 +67,39 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(16, 14);
+            this.textBox1.Location = new System.Drawing.Point(151, 14);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(289, 22);
+            this.textBox1.Size = new System.Drawing.Size(154, 22);
             this.textBox1.TabIndex = 0;
             // 
             // panel1
             // 
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel1.Controls.Add(this.comboBox1);
+            this.panel1.Controls.Add(this.label2);
+            this.panel1.Controls.Add(this.label15);
             this.panel1.Controls.Add(this.listBox1);
             this.panel1.Controls.Add(this.button2);
-            this.panel1.Controls.Add(this.button1);
             this.panel1.Controls.Add(this.textBox1);
-            this.panel1.Location = new System.Drawing.Point(549, 35);
+            this.panel1.Location = new System.Drawing.Point(325, 35);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(322, 372);
+            this.panel1.Size = new System.Drawing.Size(327, 308);
             this.panel1.TabIndex = 1;
             // 
             // listBox1
             // 
             this.listBox1.FormattingEnabled = true;
             this.listBox1.ItemHeight = 16;
-            this.listBox1.Location = new System.Drawing.Point(16, 96);
+            this.listBox1.Location = new System.Drawing.Point(37, 144);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(289, 260);
+            this.listBox1.Size = new System.Drawing.Size(268, 132);
             this.listBox1.TabIndex = 6;
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(197, 41);
+            this.button2.Location = new System.Drawing.Point(37, 91);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(108, 30);
+            this.button2.Size = new System.Drawing.Size(268, 30);
             this.button2.TabIndex = 3;
             this.button2.Text = "Потратить";
             this.button2.UseVisualStyleBackColor = true;
@@ -102,9 +107,9 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(16, 42);
+            this.button1.Location = new System.Drawing.Point(37, 62);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(108, 30);
+            this.button1.Size = new System.Drawing.Size(154, 30);
             this.button1.TabIndex = 2;
             this.button1.Text = "Добавить";
             this.button1.UseVisualStyleBackColor = true;
@@ -141,17 +146,18 @@
             // panel3
             // 
             this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel3.Controls.Add(this.label2);
-            this.panel3.Controls.Add(this.comboBox1);
-            this.panel3.Location = new System.Drawing.Point(310, 35);
+            this.panel3.Controls.Add(this.label17);
+            this.panel3.Controls.Add(this.textBox3);
+            this.panel3.Controls.Add(this.button1);
+            this.panel3.Location = new System.Drawing.Point(692, 35);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(206, 86);
+            this.panel3.Size = new System.Drawing.Size(225, 122);
             this.panel3.TabIndex = 6;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(25, 19);
+            this.label2.Location = new System.Drawing.Point(34, 62);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(76, 16);
             this.label2.TabIndex = 7;
@@ -167,7 +173,7 @@
             "Переводы",
             "Электроника",
             "Транспорт"});
-            this.comboBox1.Location = new System.Drawing.Point(28, 41);
+            this.comboBox1.Location = new System.Drawing.Point(151, 54);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(154, 24);
             this.comboBox1.TabIndex = 7;
@@ -261,37 +267,10 @@
             this.panel4.Controls.Add(this.label5);
             this.panel4.Controls.Add(this.label4);
             this.panel4.Controls.Add(this.label3);
-            this.panel4.Location = new System.Drawing.Point(30, 174);
+            this.panel4.Location = new System.Drawing.Point(30, 110);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(283, 233);
+            this.panel4.Size = new System.Drawing.Size(242, 233);
             this.panel4.TabIndex = 12;
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(32, 93);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(54, 16);
-            this.label11.TabIndex = 14;
-            this.label11.Text = "Аптеки";
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(32, 125);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(74, 16);
-            this.label12.TabIndex = 15;
-            this.label12.Text = "Переводы";
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(32, 164);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(94, 16);
-            this.label13.TabIndex = 16;
-            this.label13.Text = "Электроника";
             // 
             // label14
             // 
@@ -302,12 +281,39 @@
             this.label14.TabIndex = 17;
             this.label14.Text = "Транспорт";
             // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Location = new System.Drawing.Point(32, 164);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(94, 16);
+            this.label13.TabIndex = 16;
+            this.label13.Text = "Электроника";
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Location = new System.Drawing.Point(32, 125);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(74, 16);
+            this.label12.TabIndex = 15;
+            this.label12.Text = "Переводы";
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(32, 93);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(54, 16);
+            this.label11.TabIndex = 14;
+            this.label11.Text = "Аптеки";
+            // 
             // panel6
             // 
             this.panel6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel6.Controls.Add(this.label16);
             this.panel6.Controls.Add(this.comboBox3);
-            this.panel6.Location = new System.Drawing.Point(30, 98);
+            this.panel6.Location = new System.Drawing.Point(953, 35);
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(242, 59);
             this.panel6.TabIndex = 8;
@@ -342,11 +348,37 @@
             this.comboBox3.Size = new System.Drawing.Size(138, 24);
             this.comboBox3.TabIndex = 7;
             // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Location = new System.Drawing.Point(34, 19);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(50, 16);
+            this.label15.TabIndex = 8;
+            this.label15.Text = "Сумма";
+            this.label15.Click += new System.EventHandler(this.label15_Click);
+            // 
+            // textBox3
+            // 
+            this.textBox3.Location = new System.Drawing.Point(37, 34);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(154, 22);
+            this.textBox3.TabIndex = 9;
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Location = new System.Drawing.Point(48, 13);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(134, 16);
+            this.label17.TabIndex = 9;
+            this.label17.Text = "Добавить в бюджет";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(900, 450);
+            this.ClientSize = new System.Drawing.Size(1215, 430);
             this.Controls.Add(this.panel6);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.panel3);
@@ -398,6 +430,9 @@
         private System.Windows.Forms.Panel panel6;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.ComboBox comboBox3;
+        private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.TextBox textBox3;
     }
 }
 

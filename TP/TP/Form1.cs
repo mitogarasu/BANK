@@ -27,9 +27,11 @@ namespace TP
         int electronics = 0;
         int transport = 0;
 
+        int random = 0;
+
         private void button1_Click(object sender, EventArgs e)
         {
-            ostatok += Convert.ToInt32(textBox1.Text);
+            ostatok += Convert.ToInt32(textBox3.Text);
             textBox2.Text = Convert.ToString(ostatok);
         }
 
@@ -79,6 +81,12 @@ namespace TP
                 {
                     transport += trata;
                 }
+
+                if (comboBox1.Text == "")
+                {
+                    random += trata;    
+                }
+
             }
 
             label3.Text = Convert.ToString(markets);
@@ -100,6 +108,11 @@ namespace TP
         }
 
         private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label15_Click(object sender, EventArgs e)
         {
 
         }
